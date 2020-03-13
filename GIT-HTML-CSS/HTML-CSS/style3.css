@@ -1,0 +1,31 @@
+		.bio{
+			color:#e4efe9  ;
+			font-family: sans-serif;
+			font-size: 80px;
+			text-align: center;
+		}
+
+		.aldo {
+			color:#e4efe9;
+		}
+
+		.tengah {
+			text-align: center;
+		}
+
+		.ukuran {
+			font-size: 200%
+			
+		}
+		.img{
+			float: right;
+			color: white;
+		}
+
+		.content{
+			margin-top: 100px;
+		}
+
+		.pd{
+			padding: 10px;
+		}

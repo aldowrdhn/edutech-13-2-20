@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi Header dan Footer</title>
+  <style>
+    body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+
+    input,
+    select,
+    textarea {
+      background-color: #faefca;
+    }
+
+    .header {
+      background-color: #bc8f8f;
+      color: #ffffff;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .content {
+      font-size: 20px;
+      background-color: #cea372;
+    }
+
+    .footer {
+      background-color: #bc8f8f;
+      color: #ffffff;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    #term {
+      font-size: 15px;
+    }
+
+    #ceklis {
+      font-size: 15px;
+    }
+  </style>
+</head>
+<div class="header">
+  <header>
+    <h2>Pendaftaran Warga Bikini Bottom</h2>
+  </header>
+</div>
+
+<body>
+  <hr>
+  <div class="content" align="center">
+    <br>
+    <form>
+      <table>
+        <h4>BIKINI BOTTOM</h4>
+        <tr>
+          <td>
+            <label>Nama</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type=" text" placeholder="Cth: Michael B Jordan" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Email</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="email" placeholder="Cth: xxxxx@xxxx.com" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Alamat</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <textarea style="resize: none;width: 200px;height: 60px;" placeholder="Cth: Jalani saja dulu"
+              required></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Tanggal Lahir</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="date" min="1960-12-30" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Jenis Kelamin</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="radio" name="Jenis"> Pria
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <td>
+          <td><input type="radio" name="Jenis"> Wanita</td>
+          </td>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <td>
+          <td><input type="radio" name="Jenis"> Belum diketahui</td>
+          </td>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Hobi</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="checkbox"><label>Makan</label>
+            <input type="checkbox"><label>Minum</label>
+            <input type="checkbox"><label>Mandi</label>
+            <input type="checkbox"><label>Tidur</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Agama</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <select required>
+              <option value="default" hidden>--Pilih--</option>
+              <option value="Islam">Islam</option>
+              <option value="Kristen">Kristen</option>
+              <option value="Budha">Budha</option>
+              <option value="Katolik">Katolik</option>
+              <option value="Lainnya">Lainnya</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Asal Kota</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="text" placeholder="Cth: DKI Jakarta">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Telp</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="telp" placeholder="Cth: 081234219xxx" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Kode Pos</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="text" placeholder="Cth: 401929" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Foto pasangan</label>
+          </td>
+          <td>
+            <label>:</label>
+          </td>
+          <td>
+            <input type="file" required>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <br>
+    <div id="term">
+      <table border="1" width="600" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <p>Syarat dan ketentuan :</p>
+            <ul>
+              <li>Menjaga kebersihan</li>
+              <li>Selalu sarapan di pagi hari</li>
+              <li>Sebelum melakukan kegiatan harus mandi terlebih dahulu</li>
+              <li>Jangan lupa berdoa</li>
+            </ul>
+          </td>
+
+        </tr>
+      </table>
+    </div>
+    <br>
+    <div id="ceklis">
+      <tr>
+        <input type="checkbox" required><label>Setuju dengan syarat dan ketentuan yang berlaku</label>
+      </tr>
+    </div>
+    <br>
+    <div>
+      <button type="submit" onclick="confirm('Yakin mau jadi warga bikini bottom')">Submit</button>
+      <button type="reset" onclick="alert('Yang bener makanya kalo ngisi')">Reset</button>
+    </div>
+    <br>
+  </div>
+  <hr>
+  <div class="footer">
+    <footer>
+      <h2>Terima kasih</h2>
+    </footer>
+  </div>
+
+</body>
+
+</html>
